@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 // Toggle this to true during storm season or weather emergencies
-const SHOW_BANNER = true
+const SHOW_BANNER = false
 
 export default function EmergencyBanner() {
   const [dismissed, setDismissed] = useState(false)
